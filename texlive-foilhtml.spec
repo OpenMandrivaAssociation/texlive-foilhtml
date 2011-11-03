@@ -1,3 +1,9 @@
+# revision 21855
+# category Package
+# catalog-ctan /macros/latex/contrib/foilhtml
+# catalog-date 2007-01-05 16:07:21 +0100
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-foilhtml
 Version:	1.2
 Release:	1
@@ -49,6 +55,7 @@ LaTeX2HTML.
 %doc %{_texmfdistdir}/source/latex/foilhtml/foilhtml.drv
 %doc %{_texmfdistdir}/source/latex/foilhtml/foilhtml.dtx
 %doc %{_texmfdistdir}/source/latex/foilhtml/foilhtml.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ LaTeX2HTML.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
