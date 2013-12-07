@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-foilhtml
 Version:	1.2
-Release:	4
+Release:	5
 Summary:	Interface between foiltex and LaTeX2HTML
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/foilhtml
