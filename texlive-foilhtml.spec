@@ -1,6 +1,6 @@
 Name:		texlive-foilhtml
 Version:	61937
-Release:	1
+Release:	2
 Summary:	Interface between foiltex and LaTeX2HTML
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/foilhtml
